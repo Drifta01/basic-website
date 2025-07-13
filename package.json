@@ -20,6 +20,10 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=8.0.0"
+  },
   "bugs": {
     "url": "https://github.com/Drifta01/basic-website/issues"
   },
