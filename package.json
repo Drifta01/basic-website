@@ -1,0 +1,32 @@
+{
+  "name": "basic-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"Opening index.html in browser...\" && start index.html",
+    "dev": "echo \"Starting development server...\" && npx live-server --open=index.html",
+    "build": "echo \"Building the project...\" && exit 0",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "prettier": "prettier --check .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drifta01/basic-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Drifta01/basic-website/issues"
+  },
+  "homepage": "https://github.com/Drifta01/basic-website#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "live-server": "^1.2.2"
+  }
+}
